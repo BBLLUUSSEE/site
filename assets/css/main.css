@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #252122;
+		background: #000000;
 		background-image: url("images/bg02.png");
 	}
 
@@ -2066,14 +2066,14 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #ffffff;
+		background: #000000;
 		border-bottom: solid 1px #ccc;
-		padding: 5em 0 4em 0;
+		padding: 2em 0 4em 0;
 		text-align: center;
 	}
 
 		#header h1 {
-			color: #252122;
+			color: #ffffff;
 			font-weight: 900;
 			font-size: 2.5em;
 			letter-spacing: -0.035em;
@@ -2092,7 +2092,7 @@ input, select, textarea {
 
 			#nav > ul > li {
 				display: inline-block;
-				font-style: italic;
+				font-style: arial;
 				margin: 0 0.35em 0 0.35em;
 			}
 
@@ -2102,7 +2102,7 @@ input, select, textarea {
 
 				#nav > ul > li > a {
 					border-radius: 5px;
-					color: #5d5d5d;
+					color: #ffffff;
 					text-decoration: none;
 					padding: 0.6em 1.2em 0.6em 1.2em;
 					-moz-transition: background-color .25s ease-in-out;
@@ -2113,11 +2113,11 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a, #nav > ul > li.active > a {
-					background: #f3f3f3;
+					background: #dc1111;
 				}
 
 				#nav > ul > li.current > a {
-					background: #d52349;
+					background: #dc1111;
 					color: #fff !important;
 					font-weight: 700;
 				}
@@ -2125,9 +2125,9 @@ input, select, textarea {
 	.dropotron {
 		border-radius: 5px;
 		background-color: #252122;
-		background-color: rgba(34, 30, 31, 0.98);
+		background-color: rgba(0, 0, 0, 0.98);
 		padding: 1.25em 1.5em 1.25em 1.5em;
-		font-style: italic;
+		font-style: arial;
 		min-width: 13em;
 		box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.5);
 		text-align: left;
@@ -2137,7 +2137,7 @@ input, select, textarea {
 	}
 
 		.dropotron a, .dropotron span {
-			color: #aaa;
+			color: #ffffff;
 			text-decoration: none;
 			-moz-transition: color .25s ease-in-out;
 			-webkit-transition: color .25s ease-in-out;
@@ -2150,7 +2150,7 @@ input, select, textarea {
 		}
 
 			.dropotron li:hover > a, .dropotron li:hover > span {
-				color: #fff;
+				color: #dc1111;
 			}
 
 		.dropotron.level-0 {
@@ -2180,7 +2180,7 @@ input, select, textarea {
 		text-align: center;
 		position: relative;
 		padding: 8em 0;
-		margin: 4em 0 0 0;
+		margin: 2em 0 0 0;
 	}
 
 		#banner header {
@@ -2219,10 +2219,12 @@ input, select, textarea {
 
 		#intro h2 {
 			font-size: 1.75em;
+			color: #fff;
 		}
 
 		#intro p {
 			margin: 0;
+			color: #ffffff;
 		}
 
 		#intro .middle {
@@ -2239,7 +2241,7 @@ input, select, textarea {
 				top: 0;
 				display: block;
 				z-index: -1;
-				box-shadow: 32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, 32px 32px 0 0 #fff, 32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
+				box-shadow: 32px 0 0 0 #000000, 0 -32px 0 0 #000000, 0 32px 0 0 #000000, 32px 32px 0 0 #000000, 32px -32px 0 0 #000000, 0 0 32px 0 rgba(255, 255, 255, 0.15);
 			}
 
 			#intro .middle:after {
@@ -2251,7 +2253,7 @@ input, select, textarea {
 				top: 0;
 				display: block;
 				z-index: -1;
-				box-shadow: -32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, -32px 32px 0 0 #fff, -32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
+				box-shadow: -32px 0 0 0 #000000, 0 -32px 0 0 #000000, 0 32px 0 0 #000000, -32px 32px 0 0 #000000, -32px -32px 0 0 #000000, 0 0 32px 0 rgba(255, 255, 255, 0.15);
 			}
 
 		#intro .button {
@@ -2266,7 +2268,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: #000000 url("images/bg02.png");
 		padding: 4em 0 4em 0;
 	}
 
@@ -2283,7 +2285,8 @@ input, select, textarea {
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: #000000 url("images/bg02.png");
+			color: #fff;
 		}
 
 /* Footer */
